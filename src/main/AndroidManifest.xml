@@ -1,0 +1,13 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tacitinnovations.googlepay">
+
+  <application>
+    <activity
+        android:name=".PayActivity"
+        android:label=""
+        android:theme="@style/Theme.Transparent" />
+    <meta-data
+        android:name="com.google.android.gms.wallet.api.enabled"
+        android:value="true" />
+  </application>
+</manifest>
